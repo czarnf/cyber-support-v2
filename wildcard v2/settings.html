@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Healthcare Cybersecurity Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <a href="dashboard.html" class="headerlink">
+                    <img src="/images/Healthcare cyber support.png" alt="Healthcare Cybersecurity Dashboard Logo" class="logo">
+                    <div class="header-text">
+                        <h1>Healthcare Cybersecurity Dashboard</h1>
+                        <p class="header-p">Real-time Monitoring and Threat Management</p>
+                    </div>
+                </a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="threats.html">Threats</a></li>
+                        <li><a href="incidents.html">Incidents</a></li>
+                        <li><a href="reports.html">Reports</a></li>
+                        <li><a href="settings.html">Settings</a></li>
+                    </ul>
+                </nav>
+                <a href="/index.html" class="logout-btn">
+                    <button class="btn btn-danger">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i> 
+                    </button>
+                </a>
+            </div>
+        </header>
+        <main class="main-content">
+            <h2>Account Settings</h2>
+            <form id="settings-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="AdminUser">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="admin@example.com">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Save Changes</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Healthcare Cybersecurity Dashboard. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

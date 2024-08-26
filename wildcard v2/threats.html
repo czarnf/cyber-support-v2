@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threats - Healthcare Cybersecurity Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <a href="dashboard.html" class="headerlink">
+                    <img src="/images/Healthcare cyber support.png" alt="Healthcare Cybersecurity Dashboard Logo" class="logo">
+                    <div class="header-text">
+                        <h1>Healthcare Cybersecurity Dashboard</h1>
+                        <p class="header-p">Threats Overview</p>
+                    </div>
+                </a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="threats.html">Threats</a></li>
+                        <li><a href="incidents.html">Incidents</a></li>
+                        <li><a href="reports.html">Reports</a></li>
+                        <li><a href="settings.html">Settings</a></li>
+                    </ul>
+                </nav>
+                <a href="/index.html" class="logout-btn">
+                    <button class="btn btn-danger">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </button>
+                </a>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <h2>Threats Overview</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Threat Name</th>
+                        <th>Type</th>
+                        <th>Severity</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SQL Injection</td>
+                        <td>Injection</td>
+                        <td>High</td>
+                        <td>Unresolved</td>
+                        <td>2024-08-17</td>
+                    </tr>
+                    <tr>
+                        <td>Phishing Attempt</td>
+                        <td>Social Engineering</td>
+                        <td>Medium</td>
+                        <td>Resolved</td>
+                        <td>2024-08-15</td>
+                    </tr>
+                    <!-- Additional rows as needed -->
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            <p>Privacy Policy ~ Terms & Conditions</p>
+            <p>&copy; 2024 Healthcare Cybersecurity Dashboard. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

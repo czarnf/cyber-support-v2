@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Healthcare Cybersecurity Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <a href="dashboard.html" class="headerlink">
+                    <img src="/images/Healthcare cyber support.png" alt="Healthcare Cybersecurity Dashboard Logo" class="logo">
+                    <div class="header-text">
+                        <h1>Healthcare Cybersecurity Dashboard</h1>
+                        <p class="header-p">Real-time Monitoring and Threat Management</p>
+                    </div>
+                </a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="threats.html">Threats</a></li>
+                        <li><a href="incidents.html">Incidents</a></li>
+                        <li><a href="reports.html">Reports</a></li>
+                        <li><a href="settings.html">Settings</a></li>
+                    </ul>
+                </nav>
+                <a href="/index.html" class="logout-btn">
+                    <button class="btn btn-danger">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i> 
+                    </button>
+                </a>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section id="weather-widget" class="dashboard-section collapsible">
+                <h2><i class="fa fa-cloud" aria-hidden="true"></i> Current Weather</h2>
+                <div class="content">
+                    <!-- Weather data will be populated here -->
+                </div>
+            </section>
+
+            <section id="threat-intelligence" class="dashboard-section collapsible">
+                <h2><i class="fa fa-shield" aria-hidden="true"></i> Threat Intelligence</h2>
+                <div class="content">
+                    <!-- Threat intelligence data will be populated here -->
+                </div>
+            </section>
+
+            <section id="vulnerability-report" class="dashboard-section collapsible">
+                <h2><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Vulnerability Report</h2>
+                <div class="content">
+                    <!-- Vulnerability report data will be populated here -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Healthcare Cybersecurity Dashboard. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

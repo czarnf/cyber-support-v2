@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports - Healthcare Cybersecurity Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <a href="dashboard.html" class="headerlink">
+                    <img src="/images/Healthcare cyber support.png" alt="Healthcare Cybersecurity Dashboard Logo" class="logo">
+                    <div class="header-text">
+                        <h1>Healthcare Cybersecurity Dashboard</h1>
+                        <p class="header-p">Real-time Monitoring and Threat Management</p>
+                    </div>
+                </a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="threats.html">Threats</a></li>
+                        <li><a href="incidents.html">Incidents</a></li>
+                        <li><a href="reports.html">Reports</a></li>
+                        <li><a href="settings.html">Settings</a></li>
+                    </ul>
+                </nav>
+                <a href="/index.html" class="logout-btn">
+                    <button class="btn btn-danger">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i> 
+                    </button>
+                </a>
+            </div>
+        </header>
+        <main class="main-content">
+            <h2>Generate Report</h2>
+            <form id="report-form">
+                <label for="report-type">Select Report Type:</label>
+                <select id="report-type" name="report-type">
+                    <option value="threat-summary">Threat Summary</option>
+                    <option value="system-health">System Health</option>
+                    <option value="compliance">Compliance</option>
+                </select>
+                <label for="date-range">Select Date Range:</label>
+                <input type="date" id="start-date" name="start-date">
+                <input type="date" id="end-date" name="end-date">
+                <button type="submit">Generate Report</button>
+            </form>
+            <div id="report-list"></div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Healthcare Cybersecurity Dashboard. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
